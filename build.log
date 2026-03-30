@@ -1,0 +1,855 @@
+Cloning into 'vcpkg'...
+Updating files:  39% (5356/13640)Updating files:  40% (5456/13640)Updating files:  41% (5593/13640)Updating files:  42% (5729/13640)Updating files:  43% (5866/13640)Updating files:  44% (6002/13640)Updating files:  45% (6138/13640)Updating files:  46% (6275/13640)Updating files:  47% (6411/13640)Updating files:  48% (6548/13640)Updating files:  49% (6684/13640)Updating files:  50% (6820/13640)Updating files:  51% (6957/13640)Updating files:  52% (7093/13640)Updating files:  53% (7230/13640)Updating files:  54% (7366/13640)Updating files:  55% (7502/13640)Updating files:  56% (7639/13640)Updating files:  57% (7775/13640)Updating files:  58% (7912/13640)Updating files:  59% (8048/13640)Updating files:  60% (8184/13640)Updating files:  61% (8321/13640)Updating files:  62% (8457/13640)Updating files:  63% (8594/13640)Updating files:  64% (8730/13640)Updating files:  65% (8866/13640)Updating files:  66% (9003/13640)Updating files:  67% (9139/13640)Updating files:  68% (9276/13640)Updating files:  69% (9412/13640)Updating files:  70% (9548/13640)Updating files:  71% (9685/13640)Updating files:  72% (9821/13640)Updating files:  73% (9958/13640)Updating files:  74% (10094/13640)Updating files:  75% (10230/13640)Updating files:  76% (10367/13640)Updating files:  77% (10503/13640)Updating files:  78% (10640/13640)Updating files:  79% (10776/13640)Updating files:  80% (10912/13640)Updating files:  80% (10922/13640)Updating files:  81% (11049/13640)Updating files:  82% (11185/13640)Updating files:  83% (11322/13640)Updating files:  84% (11458/13640)Updating files:  85% (11594/13640)Updating files:  86% (11731/13640)Updating files:  87% (11867/13640)Updating files:  88% (12004/13640)Updating files:  89% (12140/13640)Updating files:  90% (12276/13640)Updating files:  91% (12413/13640)Updating files:  92% (12549/13640)Updating files:  93% (12686/13640)Updating files:  94% (12822/13640)Updating files:  95% (12958/13640)Updating files:  96% (13095/13640)Updating files:  97% (13231/13640)Updating files:  98% (13368/13640)Updating files:  99% (13504/13640)Updating files: 100% (13640/13640)Updating files: 100% (13640/13640), done.
+Note: switching to '48cfe1e0e928341709d97fc3d2eff10ad6262c96'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 48cfe1e0e9 [curl] Update to 8.19.0 [wolfssl] Fixup (#50125)
+Downloading vcpkg-macos...
+vcpkg package management program version 2026-03-04-4b3e4c276b5b87a649e66341e11553e8c577459c
+
+See LICENSE.txt for license information.
+-- Running vcpkg install
+Detecting compiler hash for triplet arm64-osx-dynamic...
+Compiler found: /usr/bin/c++
+The following packages will be built and installed:
+  * abseil:arm64-osx-dynamic@20260107.1
+    angle[core,metal]:arm64-osx-dynamic@chromium_7258 -- /Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/overlay-ports/angle
+  * brotli:arm64-osx-dynamic@1.2.0
+  * bzip2[core,tool]:arm64-osx-dynamic@1.0.8#6
+    cpptrace:arm64-osx-dynamic@1.0.2 -- /Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/overlay-ports/cpptrace
+    curl[brotli,core,http2,http3,non-http,openssl,ssl,websockets,zstd]:arm64-osx-dynamic@8.19.0
+  * dav1d:arm64-osx-dynamic@1.5.1
+  * dirent:arm64-osx-dynamic@1.26
+  * egl-registry:arm64-osx-dynamic@2025-05-27
+  * expat:arm64-osx-dynamic@2.7.4
+    fast-float:arm64-osx-dynamic@8.1.0
+    ffmpeg[avcodec,avdevice,avfilter,avformat,core,dav1d,openh264,opus,swresample,swscale,theora,vorbis,vpx,webp,zlib]:arm64-osx-dynamic@7.1.1#5
+    fmt:arm64-osx-dynamic@12.1.0
+    fontconfig:arm64-osx-dynamic@2.15.0#4
+  * freetype[brotli,bzip2,core,png,zlib]:arm64-osx-dynamic@2.13.3
+  * gettext:arm64-osx-dynamic@0.22.5#4
+  * gettext-libintl:arm64-osx-dynamic@0.22.5#4
+  * giflib:arm64-osx-dynamic@5.2.2#2
+  * gperf:arm64-osx-dynamic@3.3
+    harfbuzz[core,coretext,freetype,icu]:arm64-osx-dynamic@10.2.0
+  * highway:arm64-osx-dynamic@1.3.0#1
+    icu[core,tools]:arm64-osx-dynamic@78.2
+  * lcms:arm64-osx-dynamic@2.18
+    libavif[core,dav1d]:arm64-osx-dynamic@1.3.0#1
+    libdwarf:arm64-osx-dynamic@2.3.0
+  * libiconv:arm64-osx-dynamic@1.18#3
+    libjpeg-turbo:arm64-osx-dynamic@3.1.1
+    libjxl:arm64-osx-dynamic@0.11.1#3
+  * liblzma:arm64-osx-dynamic@5.8.2#1
+  * libogg:arm64-osx-dynamic@1.3.6#1
+    libpng[apng,core]:arm64-osx-dynamic@1.6.50
+    libproxy:arm64-osx-dynamic@0.4.18#3
+  * libtheora:arm64-osx-dynamic@1.2.0
+    libtommath:arm64-osx-dynamic@1.3.0#2 -- /Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/overlay-ports/libtommath
+  * libvorbis:arm64-osx-dynamic@1.3.7#4
+  * libvpx:arm64-osx-dynamic@1.16.0
+    libwebp[anim,core,img2webp,libwebpmux,mux,nearlossless,simd]:arm64-osx-dynamic@1.6.0#1
+    libxml2[core,iconv,zlib]:arm64-osx-dynamic@2.13.8#1
+  * libyuv:arm64-osx-dynamic@1916
+  * nghttp2:arm64-osx-dynamic@1.68.0#1 -- /Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/overlay-ports/nghttp2
+  * nghttp3:arm64-osx-dynamic@1.15.0
+  * ngtcp2[core,openssl]:arm64-osx-dynamic@1.21.0
+  * opengl-registry:arm64-osx-dynamic@2026-01-26
+  * openh264:arm64-osx-dynamic@2.6.0#4
+    openssl:arm64-osx-dynamic@3.5.3
+  * opus:arm64-osx-dynamic@1.5.2#1
+  * pkgconf:arm64-osx-dynamic@2.5.1#4
+  * pthread:arm64-osx-dynamic@3.0.0#2
+  * pthreads:arm64-osx-dynamic@3.0.0#14
+    sdl3:arm64-osx-dynamic@3.2.28
+    simdjson[core,deprecated,exceptions,threads,utf8-validation]:arm64-osx-dynamic@4.2.4
+    simdutf:arm64-osx-dynamic@7.4.0
+    skia[core,fontconfig,freetype,harfbuzz,icu,metal]:arm64-osx-dynamic@144
+    sqlite3[core,json1]:arm64-osx-dynamic@3.50.4
+    tiff[core,jpeg,lzma,zip,zstd]:arm64-osx-dynamic@4.7.1
+  * vcpkg-cmake:arm64-osx-dynamic@2024-04-23
+  * vcpkg-cmake-config:arm64-osx-dynamic@2024-05-23
+  * vcpkg-cmake-get-vars:arm64-osx-dynamic@2025-05-29
+  * vcpkg-get-python-packages:arm64-osx-dynamic@2025-04-05
+  * vcpkg-gn:arm64-osx-dynamic@2025-08-05
+  * vcpkg-make:arm64-osx-dynamic@2026-01-01
+  * vcpkg-pkgconfig-get-modules:arm64-osx-dynamic@2024-04-03
+  * vcpkg-tool-gn:arm64-osx-dynamic@2025-08-05#1
+  * vcpkg-tool-meson:arm64-osx-dynamic@1.9.0#3
+    vulkan:arm64-osx-dynamic@2023-12-17 -- /Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/overlay-ports/vulkan
+    vulkan-headers:arm64-osx-dynamic@1.4.335.0
+    woff2:arm64-osx-dynamic@1.0.2#5
+    zlib:arm64-osx-dynamic@1.3.1
+  * zstd:arm64-osx-dynamic@1.5.7
+Additional packages (*) will be modified to complete this operation.
+Restored 0 package(s) from /Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/presets/../../../Build/caches/vcpkg-binary-cache in 102 us. Use --debug to see more details.
+Installing 1/69 vcpkg-cmake:arm64-osx-dynamic@2024-04-23...
+vcpkg-cmake:arm64-osx-dynamic@2024-04-23 package ABI: 937bd783ae0bde24a7726e79537dfcfabef75461093773bae278b9f67949550a
+Building vcpkg-cmake:arm64-osx-dynamic@2024-04-23...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-cmake_arm64-osx-dynamic/share/vcpkg-cmake/vcpkg_cmake_configure.cmake
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-cmake_arm64-osx-dynamic/share/vcpkg-cmake/vcpkg_cmake_build.cmake
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-cmake_arm64-osx-dynamic/share/vcpkg-cmake/vcpkg_cmake_install.cmake
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-cmake_arm64-osx-dynamic/share/vcpkg-cmake/vcpkg-port-config.cmake
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-cmake_arm64-osx-dynamic/share/vcpkg-cmake/copyright
+-- Performing post-build validation
+Starting submission of vcpkg-cmake:arm64-osx-dynamic@2024-04-23 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-cmake:arm64-osx-dynamic: 34.4 ms
+Installing 2/69 zlib:arm64-osx-dynamic@1.3.1...
+zlib:arm64-osx-dynamic@1.3.1 package ABI: 0eb817a2a1ca10fc842f5de3a4353f1e114a8d966540d6fac3e51408b2068b86
+Building zlib:arm64-osx-dynamic@1.3.1...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download madler-zlib-v1.3.1.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/8c9642495bafd6fad4ab9fb67f09b268c69ff9af0f4f20cf15dfc18852ff1f312bd8ca41de761b3f8d8e90e77d79f2ccacd3d4c5b19e475ecf09d021fdfe9088
+Download successful! Asset cache hit, did not try authoritative source https://github.com/madler/zlib/archive/v1.3.1.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/madler-zlib-v1.3.1.tar.gz
+-- Applying patch 0001-Prevent-invalid-inclusions-when-HAVE_-is-set-to-0.patch
+-- Applying patch 0002-build-static-or-shared-not-both.patch
+-- Applying patch 0003-android-and-mingw-fixes.patch
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/zlib/src/v1.3.1-2e5db616bf.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/zlib_arm64-osx-dynamic/share/zlib/vcpkg-cmake-wrapper.cmake
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/zlib_arm64-osx-dynamic/lib/pkgconfig/zlib.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/zlib_arm64-osx-dynamic/share/zlib/copyright
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/zlib_arm64-osx-dynamic/lib/libz.1.3.1.dylib' to '@rpath/libz.1.3.1.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/zlib_arm64-osx-dynamic/lib/libz.1.3.1.dylib' to '@loader_path'
+-- Performing post-build validation
+Starting submission of zlib:arm64-osx-dynamic@1.3.1 to 1 binary cache(s) in the background
+Elapsed time to handle zlib:arm64-osx-dynamic: 8.5 s
+Completed submission of vcpkg-cmake:arm64-osx-dynamic@2024-04-23 to 1 binary cache(s) in 15.8 ms
+Installing 3/69 vcpkg-get-python-packages:arm64-osx-dynamic@2025-04-05...
+vcpkg-get-python-packages:arm64-osx-dynamic@2025-04-05 package ABI: cc12db3cf2c63c3b3eb086a2446f9a1630602facd05efdc4a1fae458eec226ef
+Building vcpkg-get-python-packages:arm64-osx-dynamic@2025-04-05...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+-- Skipping post-build validation due to VCPKG_POLICY_EMPTY_PACKAGE
+Starting submission of vcpkg-get-python-packages:arm64-osx-dynamic@2025-04-05 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-get-python-packages:arm64-osx-dynamic: 33.2 ms
+Completed submission of zlib:arm64-osx-dynamic@1.3.1 to 1 binary cache(s) in 17.1 ms
+Installing 4/69 vcpkg-cmake-config:arm64-osx-dynamic@2024-05-23...
+vcpkg-cmake-config:arm64-osx-dynamic@2024-05-23 package ABI: ef8e95d83ece0a2db7570d861e14e92ef053c8c30bf278386a568cd0497800ef
+Building vcpkg-cmake-config:arm64-osx-dynamic@2024-05-23...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-cmake-config_arm64-osx-dynamic/share/vcpkg-cmake-config/vcpkg_cmake_config_fixup.cmake
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-cmake-config_arm64-osx-dynamic/share/vcpkg-cmake-config/vcpkg-port-config.cmake
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-cmake-config_arm64-osx-dynamic/share/vcpkg-cmake-config/copyright
+-- Skipping post-build validation due to VCPKG_POLICY_EMPTY_PACKAGE
+Starting submission of vcpkg-cmake-config:arm64-osx-dynamic@2024-05-23 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-cmake-config:arm64-osx-dynamic: 28.6 ms
+Completed submission of vcpkg-get-python-packages:arm64-osx-dynamic@2025-04-05 to 1 binary cache(s) in 7.92 ms
+Installing 5/69 egl-registry:arm64-osx-dynamic@2025-05-27...
+egl-registry:arm64-osx-dynamic@2025-05-27 package ABI: 38960ed452d0fc9b2bec60a847bf1327d9ea0a19a1a1e7ccdf70f55f9f31443f
+Building egl-registry:arm64-osx-dynamic@2025-05-27...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download KhronosGroup-EGL-Registry-3ae2b7c48690d2ce13cc6db3db02dfc0572be65e.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/c7b09ded4964fa427546bd345a29325105b79079b59642214dc8f04de113f42de2bc4272dbbbd4a801d92afc20297442fdfa12043a0900cf1e2b1cd83f260883
+Download successful! Asset cache hit, did not try authoritative source https://github.com/KhronosGroup/EGL-Registry/archive/3ae2b7c48690d2ce13cc6db3db02dfc0572be65e.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/KhronosGroup-EGL-Registry-3ae2b7c48690d2ce13cc6db3db02dfc0572be65e.tar.gz
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/egl-registry/src/c0572be65e-4257a9ad9b.clean
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/egl-registry_arm64-osx-dynamic/share/egl-registry/copyright
+-- Performing post-build validation
+Starting submission of egl-registry:arm64-osx-dynamic@2025-05-27 to 1 binary cache(s) in the background
+Elapsed time to handle egl-registry:arm64-osx-dynamic: 42 s
+Completed submission of vcpkg-cmake-config:arm64-osx-dynamic@2024-05-23 to 1 binary cache(s) in 10.8 ms
+Installing 6/69 opengl-registry:arm64-osx-dynamic@2026-01-26...
+opengl-registry:arm64-osx-dynamic@2026-01-26 package ABI: 1295b3097c7e46e2449034f6a33fc9434bbfc2af494f37d7f96a7e05f789aef7
+Building opengl-registry:arm64-osx-dynamic@2026-01-26...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download KhronosGroup-OpenGL-Registry-0b449b97cdf1043eef5e1f0e235cbbab6ec10c86.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/148e1bfe4cc199bcc2c23b22d0b3e4988a29389d7f510ba4a6340672dbb7ab99bb836d2c08587499484df704d51a1adf4f0dc3a30d5ad8977ee0ad339163b17e
+Download successful! Asset cache hit, did not try authoritative source https://github.com/KhronosGroup/OpenGL-Registry/archive/0b449b97cdf1043eef5e1f0e235cbbab6ec10c86.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/KhronosGroup-OpenGL-Registry-0b449b97cdf1043eef5e1f0e235cbbab6ec10c86.tar.gz
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/opengl-registry/src/ab6ec10c86-88344330ab.clean
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/opengl-registry_arm64-osx-dynamic/share/opengl-registry/copyright
+-- Performing post-build validation
+Starting submission of opengl-registry:arm64-osx-dynamic@2026-01-26 to 1 binary cache(s) in the background
+Elapsed time to handle opengl-registry:arm64-osx-dynamic: 5.2 min
+Completed submission of egl-registry:arm64-osx-dynamic@2025-05-27 to 1 binary cache(s) in 106 ms
+Installing 7/69 angle[core,metal]:arm64-osx-dynamic@chromium_7258...
+angle[core,metal]:arm64-osx-dynamic@chromium_7258 package ABI: 456cd908c6c85bfc33afc897be819e782c2418482ae3882fe9af95b4ebcf8835
+Building angle[core,metal]:arm64-osx-dynamic@chromium_7258...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/overlay-ports/angle: info: installing overlay port from here
+Trying to download google-angle-79ac1a8cd767a32cce6401203e20c4bd4ca4d539.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/a3d5d09460f05f1f1c081411bf15f585bb8add5f3db7c4854dc2cf2ef1fd22dd5b2dd5d3de78bfb8bcdae8459dd9581f7dce331acd34053c87c84cfe6c3d134c
+Download successful! Asset cache hit, did not try authoritative source https://github.com/google/angle/archive/79ac1a8cd767a32cce6401203e20c4bd4ca4d539.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/google-angle-79ac1a8cd767a32cce6401203e20c4bd4ca4d539.tar.gz
+-- Applying patch 001-fix-builder-error.patch
+-- Applying patch 002-bsd-support.patch
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/angle/src/bd4ca4d539-caeb5ad129.clean
+Trying to download gni-to-cmake.py using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/cf9dab1b59cd44b9ce05a2dc4636115e770dfe7d5cfbd90c3fef659628ac8155c57b866480f7cfe9a0afeb31ff5ce5eed74473f386120a7fc5910e8b032bd61d
+Download successful! Asset cache hit, did not try authoritative source https://github.com/WebKit/WebKit/raw/0742522b24152262b04913242cb0b3c48de92ba0/Source/ThirdParty/ANGLE/gni-to-cmake.py
+-- Setting up python virtual environment...
+-- Installing python packages: ply
+-- Setting up python virtual environment... finished.
+Trying to download include_CMakeLists.txt using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/a7ddf3c6df7565e232f87ec651cc4fd84240b8866609e23e3e6e41d22532fd34c70e0f3b06120fd3d6d930ca29c1d0d470d4c8cb7003a66f8c1a840a42f32949
+Download successful! Asset cache hit, did not try authoritative source https://github.com/WebKit/WebKit/raw/0742522b24152262b04913242cb0b3c48de92ba0/Source/ThirdParty/ANGLE/include/CMakeLists.txt
+Trying to download WebKitCompilerFlags.cmake using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/8b281ffcf9209c845a5fdae48a4e05f08ca677c37a7fb00d9270de81bd103160d26e091724ce8df8d428ad604900b5202b221fed5bafffd4bf00025718ef9d8e
+Download successful! Asset cache hit, did not try authoritative source https://github.com/WebKit/WebKit/raw/0742522b24152262b04913242cb0b3c48de92ba0/Source/cmake/WebKitCompilerFlags.cmake
+Trying to download DetectSSE2.cmake using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/219a4c8591ee31d11eb3d1e4803cc3c9d4573984bb25ecac6f2c76e6a3dab598c00b0157d0f94b18016de6786e49d8b29a161693a5ce23d761c8fe6a798c1bca
+Download successful! Asset cache hit, did not try authoritative source https://github.com/WebKit/WebKit/raw/0742522b24152262b04913242cb0b3c48de92ba0/Source/cmake/DetectSSE2.cmake
+Trying to download WebKitMacros.cmake using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/565175443d5d1b8119af504164bf93840e8c786fc479e45feb98ca542351b91d2ea00265d7f8dfa6960975de81802bc43b2a2af2c90fc44bda1ae46d96c89247
+Download successful! Asset cache hit, did not try authoritative source https://github.com/WebKit/WebKit/raw/0742522b24152262b04913242cb0b3c48de92ba0/Source/cmake/WebKitMacros.cmake
+-- Fetching https://chromium.googlesource.com/chromium/src/third_party/zlib 4028ebf8710ee39d2286cb0f847f9b95c59f84d8...
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/angle-4028ebf8710ee39d2286cb0f847f9b95c59f84d8.tar.gz
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/angle/src/95c59f84d8-5aa549f003.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/angle_arm64-osx-dynamic/share/angle/copyright
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/angle_arm64-osx-dynamic/share/angle/usage
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/angle_arm64-osx-dynamic/lib/liblibEGL_angle.dylib' to '@rpath/liblibEGL_angle.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/angle_arm64-osx-dynamic/lib/liblibEGL_angle.dylib' to '@loader_path'
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/angle_arm64-osx-dynamic/lib/liblibGLESv2_angle.dylib' to '@rpath/liblibGLESv2_angle.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/angle_arm64-osx-dynamic/lib/liblibGLESv2_angle.dylib' to '@loader_path'
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/angle_arm64-osx-dynamic/lib/liblibEGL_angle.dylib' (From '@rpath/liblibEGL_angle.dylib' -> To '@rpath/liblibEGL_angle.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/angle_arm64-osx-dynamic/lib/liblibEGL_angle.dylib' (From '@rpath/liblibGLESv2_angle.dylib' -> To '@rpath/liblibGLESv2_angle.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/angle_arm64-osx-dynamic/lib/liblibGLESv2_angle.dylib' (From '@rpath/liblibGLESv2_angle.dylib' -> To '@rpath/liblibGLESv2_angle.dylib')
+-- Performing post-build validation
+Starting submission of angle[core,metal]:arm64-osx-dynamic@chromium_7258 to 1 binary cache(s) in the background
+Elapsed time to handle angle:arm64-osx-dynamic: 2 min
+Completed submission of opengl-registry:arm64-osx-dynamic@2026-01-26 to 1 binary cache(s) in 251 ms
+Installing 8/69 zstd:arm64-osx-dynamic@1.5.7...
+zstd:arm64-osx-dynamic@1.5.7 package ABI: 07f0d29c0306651c62335430f8ec5af61d4d6344aaea3f1c1fba693df4362e56
+Building zstd:arm64-osx-dynamic@1.5.7...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download facebook-zstd-v1.5.7.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/26e441267305f6e58080460f96ab98645219a90d290a533410b1b0b1d2f870721c95f8384e342ee647c5e968385a5b7e30c2d04340c37f59b3e6d86762c3260c
+Download successful! Asset cache hit, did not try authoritative source https://github.com/facebook/zstd/archive/v1.5.7.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/facebook-zstd-v1.5.7.tar.gz
+-- Applying patch no-static-suffix.patch
+-- Applying patch fix-emscripten-and-clang-cl.patch
+-- Applying patch fix-windows-rc-compile.patch
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/zstd/src/v1.5.7-bb6cae2b2e.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/zstd_arm64-osx-dynamic/lib/pkgconfig/libzstd.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/zstd_arm64-osx-dynamic/share/zstd/usage
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/zstd_arm64-osx-dynamic/lib/libzstd.1.5.7.dylib' to '@rpath/libzstd.1.5.7.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/zstd_arm64-osx-dynamic/lib/libzstd.1.5.7.dylib' to '@loader_path'
+-- Performing post-build validation
+Starting submission of zstd:arm64-osx-dynamic@1.5.7 to 1 binary cache(s) in the background
+Elapsed time to handle zstd:arm64-osx-dynamic: 17 s
+Completed submission of angle[core,metal]:arm64-osx-dynamic@chromium_7258 to 1 binary cache(s) in 731 ms
+Installing 9/69 libdwarf:arm64-osx-dynamic@2.3.0...
+libdwarf:arm64-osx-dynamic@2.3.0 package ABI: 1f82a6dfd33a81fd0197e45b60925d2bf29f3a9cf9688361bbc3feb9a55743c4
+Building libdwarf:arm64-osx-dynamic@2.3.0...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download davea42-libdwarf-code-v2.3.0.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/66f9c273d272b23b75cb520db8b4c1105f9214e4c5b65187f289090dfa7e889746abf5b4bb9b760c6a0120a7bb3f25b45308acf6c1037742e31946a2023cd804
+Download successful! Asset cache hit, did not try authoritative source https://github.com/davea42/libdwarf-code/archive/v2.3.0.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/davea42-libdwarf-code-v2.3.0.tar.gz
+-- Applying patch include-dir.diff
+-- Applying patch dependencies.diff
+-- Applying patch msvc-runtime.diff
+-- Applying patch dwarfdump-conf.diff
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/libdwarf/src/v2.3.0-a0ba5e729d.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libdwarf_arm64-osx-dynamic/lib/pkgconfig/libdwarf.pc
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libdwarf_arm64-osx-dynamic/lib/libdwarf.2.3.0.dylib' to '@rpath/libdwarf.2.3.0.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libdwarf_arm64-osx-dynamic/lib/libdwarf.2.3.0.dylib' to '@loader_path'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libdwarf_arm64-osx-dynamic/tools/libdwarf/dwarfdump' to '@loader_path/../../lib'
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libdwarf_arm64-osx-dynamic/tools/libdwarf/dwarfdump' (From '@rpath/libdwarf.2.dylib' -> To '@rpath/libdwarf.2.3.0.dylib')
+-- Performing post-build validation
+Starting submission of libdwarf:arm64-osx-dynamic@2.3.0 to 1 binary cache(s) in the background
+Elapsed time to handle libdwarf:arm64-osx-dynamic: 14 s
+Completed submission of zstd:arm64-osx-dynamic@1.5.7 to 1 binary cache(s) in 43.1 ms
+Installing 10/69 cpptrace:arm64-osx-dynamic@1.0.2...
+cpptrace:arm64-osx-dynamic@1.0.2 package ABI: 4f0b9580394b87ca0421a7542234fdd7a0eafd1f1582e31137b0e903e29cd1a9
+Building cpptrace:arm64-osx-dynamic@1.0.2...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/overlay-ports/cpptrace: info: installing overlay port from here
+Trying to download jeremy-rifkin-cpptrace-v1.0.2.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/4ae394fb3c21149bf2441a754eebe639e6a5534927426b6507806c7bee0b1c982e047c972904d472f1c660adb5be3881e7e3a6eddd18e4e9d376ae3855d50a7c
+Download successful! Asset cache hit, did not try authoritative source https://github.com/jeremy-rifkin/cpptrace/archive/v1.0.2.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/jeremy-rifkin-cpptrace-v1.0.2.tar.gz
+-- Applying patch delay.patch
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/cpptrace/src/v1.0.2-a08607d048.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/cpptrace_arm64-osx-dynamic/share/cpptrace/usage
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/cpptrace_arm64-osx-dynamic/share/cpptrace/copyright
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/cpptrace_arm64-osx-dynamic/lib/libcpptrace.1.0.2.dylib' to '@rpath/libcpptrace.1.0.2.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/cpptrace_arm64-osx-dynamic/lib/libcpptrace.1.0.2.dylib' to '@loader_path'
+-- Performing post-build validation
+Starting submission of cpptrace:arm64-osx-dynamic@1.0.2 to 1 binary cache(s) in the background
+Elapsed time to handle cpptrace:arm64-osx-dynamic: 14 s
+Completed submission of libdwarf:arm64-osx-dynamic@2.3.0 to 1 binary cache(s) in 72 ms
+Installing 11/69 vcpkg-cmake-get-vars:arm64-osx-dynamic@2025-05-29...
+vcpkg-cmake-get-vars:arm64-osx-dynamic@2025-05-29 package ABI: f03f6a27455e7d2368a484004f743785b8b2cf548e48e95fb3a191031858836f
+Building vcpkg-cmake-get-vars:arm64-osx-dynamic@2025-05-29...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-cmake-get-vars_arm64-osx-dynamic/share/vcpkg-cmake-get-vars/vcpkg_cmake_get_vars.cmake
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-cmake-get-vars_arm64-osx-dynamic/share/vcpkg-cmake-get-vars/cmake_get_vars
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-cmake-get-vars_arm64-osx-dynamic/share/vcpkg-cmake-get-vars/cmake_get_vars/CMakeLists.txt
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-cmake-get-vars_arm64-osx-dynamic/share/vcpkg-cmake-get-vars/cmake-get-vars.cmake.in
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-cmake-get-vars_arm64-osx-dynamic/share/vcpkg-cmake-get-vars/vcpkg-port-config.cmake
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-cmake-get-vars_arm64-osx-dynamic/share/vcpkg-cmake-get-vars/copyright
+-- Performing post-build validation
+Starting submission of vcpkg-cmake-get-vars:arm64-osx-dynamic@2025-05-29 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-cmake-get-vars:arm64-osx-dynamic: 41.7 ms
+Completed submission of cpptrace:arm64-osx-dynamic@1.0.2 to 1 binary cache(s) in 26.6 ms
+Installing 12/69 openssl:arm64-osx-dynamic@3.5.3...
+openssl:arm64-osx-dynamic@3.5.3 package ABI: a95a16441cbc106098c90987f4f833bdf47d363775ce3485a5df91496c7506ed
+Building openssl:arm64-osx-dynamic@3.5.3...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download openssl-openssl-openssl-3.5.3.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/c4a7de05a970729638b9689960819c6050a1c36a5ca111a65b0e23efd2dd540036d68393fd45a401f788caec030bbad5ac5bdbc6f4f13df47ef48aee0ab48a8b
+Download successful! Asset cache hit, did not try authoritative source https://github.com/openssl/openssl/archive/openssl-3.5.3.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/openssl-openssl-openssl-3.5.3.tar.gz
+-- Applying patch cmake-config.patch
+-- Applying patch command-line-length.patch
+-- Applying patch script-prefix.patch
+-- Applying patch windows/install-layout.patch
+-- Applying patch windows/install-pdbs.patch
+-- Applying patch unix/android-cc.patch
+-- Applying patch unix/move-openssldir.patch
+-- Applying patch unix/no-empty-dirs.patch
+-- Applying patch unix/no-static-libs-for-shared.patch
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/openssl/src/nssl-3.5.3-78bf900265.clean
+-- Getting CMake variables for arm64-osx-dynamic
+-- Loading CMake variables from /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/openssl/cmake-get-vars_C_CXX-arm64-osx-dynamic.cmake.log
+-- Getting CMake variables for arm64-osx-dynamic-rel
+-- Configuring arm64-osx-dynamic-rel
+-- Building arm64-osx-dynamic-rel
+-- Installing arm64-osx-dynamic-rel
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/openssl_arm64-osx-dynamic/lib/pkgconfig/libcrypto.pc
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/openssl_arm64-osx-dynamic/lib/pkgconfig/libssl.pc
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/openssl_arm64-osx-dynamic/lib/pkgconfig/openssl.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/openssl_arm64-osx-dynamic/share/openssl/usage
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/openssl_arm64-osx-dynamic/share/openssl/copyright
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/openssl_arm64-osx-dynamic/lib/libcrypto.3.dylib' to '@rpath/libcrypto.3.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/openssl_arm64-osx-dynamic/lib/libcrypto.3.dylib' to '@loader_path'
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/openssl_arm64-osx-dynamic/lib/libssl.3.dylib' to '@rpath/libssl.3.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/openssl_arm64-osx-dynamic/lib/libssl.3.dylib' to '@loader_path'
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/openssl_arm64-osx-dynamic/lib/libssl.3.dylib' (From '/Users/ajpri/Documents/GitHub/ladybird/Build/release/vcpkg_installed/arm64-osx-dynamic/lib/libcrypto.3.dylib' -> To '@rpath/libcrypto.3.dylib')
+-- Performing post-build validation
+Starting submission of openssl:arm64-osx-dynamic@3.5.3 to 1 binary cache(s) in the background
+Elapsed time to handle openssl:arm64-osx-dynamic: 2.1 min
+Completed submission of vcpkg-cmake-get-vars:arm64-osx-dynamic@2025-05-29 to 1 binary cache(s) in 8.4 ms
+Installing 13/69 ngtcp2[core,openssl]:arm64-osx-dynamic@1.21.0...
+ngtcp2[core,openssl]:arm64-osx-dynamic@1.21.0 package ABI: 0244209721ebb59cccca6e4c130d2a75ee24982a97aa65e4f284b57e98dd2096
+Building ngtcp2[core,openssl]:arm64-osx-dynamic@1.21.0...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download ngtcp2-ngtcp2-v1.21.0.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/3115773b80fda6b6c3d4ad6a5132015dfdfa863da8826db835a8cc478270886f89345d4bdb951abc373acc79b984592880ed174e5799fd77706f70298d07ce0e
+Download successful! Asset cache hit, did not try authoritative source https://github.com/ngtcp2/ngtcp2/archive/v1.21.0.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/ngtcp2-ngtcp2-v1.21.0.tar.gz
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/ngtcp2/src/v1.21.0-cc3bf62b52.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/ngtcp2_arm64-osx-dynamic/lib/pkgconfig/libngtcp2.pc
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/ngtcp2_arm64-osx-dynamic/lib/pkgconfig/libngtcp2_crypto_ossl.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/ngtcp2_arm64-osx-dynamic/share/ngtcp2/copyright
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/ngtcp2_arm64-osx-dynamic/lib/libngtcp2.16.7.4.dylib' to '@rpath/libngtcp2.16.7.4.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/ngtcp2_arm64-osx-dynamic/lib/libngtcp2.16.7.4.dylib' to '@loader_path'
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/ngtcp2_arm64-osx-dynamic/lib/libngtcp2_crypto_ossl.0.1.1.dylib' to '@rpath/libngtcp2_crypto_ossl.0.1.1.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/ngtcp2_arm64-osx-dynamic/lib/libngtcp2_crypto_ossl.0.1.1.dylib' to '@loader_path'
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/ngtcp2_arm64-osx-dynamic/lib/libngtcp2_crypto_ossl.0.1.1.dylib' (From '@rpath/libngtcp2.16.dylib' -> To '@rpath/libngtcp2.16.7.4.dylib')
+-- Performing post-build validation
+Starting submission of ngtcp2[core,openssl]:arm64-osx-dynamic@1.21.0 to 1 binary cache(s) in the background
+Elapsed time to handle ngtcp2:arm64-osx-dynamic: 9.7 s
+Completed submission of openssl:arm64-osx-dynamic@3.5.3 to 1 binary cache(s) in 285 ms
+Installing 14/69 nghttp3:arm64-osx-dynamic@1.15.0...
+nghttp3:arm64-osx-dynamic@1.15.0 package ABI: c1e62843ac8a3114854afab1f911aa63f6877a5a6722b522b19efca07fce185f
+Building nghttp3:arm64-osx-dynamic@1.15.0...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download ngtcp2-nghttp3-v1.15.0.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/278182f31f9bbfc9e00ae01c730394859855da37a17f78917c43352bf793cb31d685833c5e38ef908559e0f8ae032d420cc5af8b0b87bbf19b2ca51e0c90e60f
+Download successful! Asset cache hit, did not try authoritative source https://github.com/ngtcp2/nghttp3/archive/v1.15.0.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/ngtcp2-nghttp3-v1.15.0.tar.gz
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/nghttp3/src/v1.15.0-1fe1dcba4b.clean
+Trying to download ngtcp2-sfparse-ff7f230e7df2844afef7dc49631cda03a30455f3.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/da9bbfd800636373e8ab8a6f073ca045abbd8baeeb6e2b6d469ddb3bc7a78958fc0b2c8fbcd50a757292862ef832d257863ab17b74d27c51c1b7fdbf004e833c
+Download successful! Asset cache hit, did not try authoritative source https://github.com/ngtcp2/sfparse/archive/ff7f230e7df2844afef7dc49631cda03a30455f3.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/ngtcp2-sfparse-ff7f230e7df2844afef7dc49631cda03a30455f3.tar.gz
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/nghttp3/src/03a30455f3-e8de1a833d.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/nghttp3_arm64-osx-dynamic/lib/pkgconfig/libnghttp3.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/nghttp3_arm64-osx-dynamic/share/nghttp3/copyright
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/nghttp3_arm64-osx-dynamic/share/nghttp3/usage
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/nghttp3_arm64-osx-dynamic/lib/libnghttp3.9.6.1.dylib' to '@rpath/libnghttp3.9.6.1.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/nghttp3_arm64-osx-dynamic/lib/libnghttp3.9.6.1.dylib' to '@loader_path'
+-- Performing post-build validation
+Starting submission of nghttp3:arm64-osx-dynamic@1.15.0 to 1 binary cache(s) in the background
+Elapsed time to handle nghttp3:arm64-osx-dynamic: 4.7 s
+Completed submission of ngtcp2[core,openssl]:arm64-osx-dynamic@1.21.0 to 1 binary cache(s) in 33.4 ms
+Installing 15/69 nghttp2:arm64-osx-dynamic@1.68.0#1...
+nghttp2:arm64-osx-dynamic@1.68.0#1 package ABI: e814a950acd5599c4129b0014318272e891cfb67ac1a0659032085ae938f59eb
+Building nghttp2:arm64-osx-dynamic@1.68.0#1...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/overlay-ports/nghttp2: info: installing overlay port from here
+Trying to download nghttp2-nghttp2-v1.68.0.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/95af9926dfd2454dff52ea4ba2b6708548a9add0f48e14d3d843982609168d79dabf2958076e5761fac6d00c5b1f4d0fe5d9d1694c1e07c92a4ce3cdf0023ef6
+Download successful! Asset cache hit, did not try authoritative source https://github.com/nghttp2/nghttp2/archive/v1.68.0.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/nghttp2-nghttp2-v1.68.0.tar.gz
+-- Applying patch allow-data-after-half-closed.patch
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/nghttp2/src/v1.68.0-d4b94e5645.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/nghttp2_arm64-osx-dynamic/lib/pkgconfig/libnghttp2.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/nghttp2_arm64-osx-dynamic/share/nghttp2/copyright
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/nghttp2_arm64-osx-dynamic/lib/libnghttp2.14.29.2.dylib' to '@rpath/libnghttp2.14.29.2.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/nghttp2_arm64-osx-dynamic/lib/libnghttp2.14.29.2.dylib' to '@loader_path'
+-- Performing post-build validation
+Starting submission of nghttp2:arm64-osx-dynamic@1.68.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle nghttp2:arm64-osx-dynamic: 11 s
+Completed submission of nghttp3:arm64-osx-dynamic@1.15.0 to 1 binary cache(s) in 18.9 ms
+Installing 16/69 brotli:arm64-osx-dynamic@1.2.0...
+brotli:arm64-osx-dynamic@1.2.0 package ABI: 2c751765ec0d87599488fd05ba78c9b081867e097358e0dbb033f5c05af2a983
+Building brotli:arm64-osx-dynamic@1.2.0...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download google-brotli-v1.2.0.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/f94542afd2ecd96cc41fd21a805a3da314281ae558c10650f3e6d9ca732b8425bba8fde312823f0a564c7de3993bdaab5b43378edab65ebb798cefb6fd702256
+Download successful! Asset cache hit, did not try authoritative source https://github.com/google/brotli/archive/v1.2.0.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/google-brotli-v1.2.0.tar.gz
+-- Applying patch install.patch
+-- Applying patch pkgconfig.patch
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/brotli/src/v1.2.0-7af7ca71ad.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/brotli_arm64-osx-dynamic/lib/pkgconfig/libbrotlicommon.pc
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/brotli_arm64-osx-dynamic/lib/pkgconfig/libbrotlidec.pc
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/brotli_arm64-osx-dynamic/lib/pkgconfig/libbrotlienc.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/brotli_arm64-osx-dynamic/share/brotli/usage
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/brotli_arm64-osx-dynamic/share/brotli/copyright
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/brotli_arm64-osx-dynamic/lib/libbrotlicommon.1.2.0.dylib' to '@rpath/libbrotlicommon.1.2.0.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/brotli_arm64-osx-dynamic/lib/libbrotlicommon.1.2.0.dylib' to '@loader_path'
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/brotli_arm64-osx-dynamic/lib/libbrotlidec.1.2.0.dylib' to '@rpath/libbrotlidec.1.2.0.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/brotli_arm64-osx-dynamic/lib/libbrotlidec.1.2.0.dylib' to '@loader_path'
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/brotli_arm64-osx-dynamic/lib/libbrotlienc.1.2.0.dylib' to '@rpath/libbrotlienc.1.2.0.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/brotli_arm64-osx-dynamic/lib/libbrotlienc.1.2.0.dylib' to '@loader_path'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/brotli_arm64-osx-dynamic/tools/brotli/brotli' to '@loader_path/../../lib'
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/brotli_arm64-osx-dynamic/lib/libbrotlidec.1.2.0.dylib' (From '@rpath/libbrotlicommon.1.dylib' -> To '@rpath/libbrotlicommon.1.2.0.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/brotli_arm64-osx-dynamic/lib/libbrotlienc.1.2.0.dylib' (From '@rpath/libbrotlicommon.1.dylib' -> To '@rpath/libbrotlicommon.1.2.0.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/brotli_arm64-osx-dynamic/tools/brotli/brotli' (From '@rpath/libbrotlicommon.1.dylib' -> To '@rpath/libbrotlicommon.1.2.0.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/brotli_arm64-osx-dynamic/tools/brotli/brotli' (From '@rpath/libbrotlidec.1.dylib' -> To '@rpath/libbrotlidec.1.2.0.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/brotli_arm64-osx-dynamic/tools/brotli/brotli' (From '@rpath/libbrotlienc.1.dylib' -> To '@rpath/libbrotlienc.1.2.0.dylib')
+-- Performing post-build validation
+Starting submission of brotli:arm64-osx-dynamic@1.2.0 to 1 binary cache(s) in the background
+Elapsed time to handle brotli:arm64-osx-dynamic: 7.5 s
+Completed submission of nghttp2:arm64-osx-dynamic@1.68.0#1 to 1 binary cache(s) in 25.5 ms
+Installing 17/69 curl[brotli,core,http2,http3,non-http,openssl,ssl,websockets,zstd]:arm64-osx-dynamic@8.19.0...
+curl[brotli,core,http2,http3,non-http,openssl,ssl,websockets,zstd]:arm64-osx-dynamic@8.19.0 package ABI: ea3078822272eb68ce1cdbe720cc46439177eedcb5e042ce974ae5e7d27552bc
+Building curl[brotli,core,http2,http3,non-http,openssl,ssl,websockets,zstd]:arm64-osx-dynamic@8.19.0...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download curl-curl-curl-8_19_0.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/1ce097d400da48e038f64e637ed338ab5873b2a961b1837b615ef890e530fd711fe44d47527eecbc3652e67e09bed2bb81bb2045b8e0f5b5137236e74b458f96
+Download successful! Asset cache hit, did not try authoritative source https://github.com/curl/curl/archive/curl-8_19_0.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/curl-curl-curl-8_19_0.tar.gz
+-- Applying patch dependencies.patch
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/curl/src/url-8_19_0-541fed44c9.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/curl_arm64-osx-dynamic/lib/pkgconfig/libcurl.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/curl_arm64-osx-dynamic/share/curl/vcpkg-cmake-wrapper.cmake
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/curl_arm64-osx-dynamic/share/curl/usage
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/curl_arm64-osx-dynamic/lib/libcurl.4.8.0.dylib' to '@rpath/libcurl.4.8.0.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/curl_arm64-osx-dynamic/lib/libcurl.4.8.0.dylib' to '@loader_path'
+-- Performing post-build validation
+Starting submission of curl[brotli,core,http2,http3,non-http,openssl,ssl,websockets,zstd]:arm64-osx-dynamic@8.19.0 to 1 binary cache(s) in the background
+Elapsed time to handle curl:arm64-osx-dynamic: 36 s
+Completed submission of brotli:arm64-osx-dynamic@1.2.0 to 1 binary cache(s) in 55.4 ms
+Installing 18/69 fast-float:arm64-osx-dynamic@8.1.0...
+fast-float:arm64-osx-dynamic@8.1.0 package ABI: f6348ce679f2c7b94f66245c2af7c95b2a9f025a4d9edafa4a5afb882bc63457
+Building fast-float:arm64-osx-dynamic@8.1.0...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download fastfloat-fast_float-v8.1.0.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/5d8c5594e1999b7274e6d28248d269155673c1d02509111338b8518e3ebe6767530cbd2108d6406d7ef023a0cf9b33a2aa5a2dea3ffadf34f426a148d087c197
+Download successful! Asset cache hit, did not try authoritative source https://github.com/fastfloat/fast_float/archive/v8.1.0.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/fastfloat-fast_float-v8.1.0.tar.gz
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/fast-float/src/v8.1.0-836312d7ce.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/fast-float_arm64-osx-dynamic/share/fast-float/usage
+-- Performing post-build validation
+Starting submission of fast-float:arm64-osx-dynamic@8.1.0 to 1 binary cache(s) in the background
+Elapsed time to handle fast-float:arm64-osx-dynamic: 2 s
+Completed submission of curl[brotli,core,http2,http3,non-http,openssl,ssl,websockets,zstd]:arm64-osx-dynamic@8.19.0 to 1 binary cache(s) in 59.2 ms
+Installing 19/69 liblzma:arm64-osx-dynamic@5.8.2#1...
+liblzma:arm64-osx-dynamic@5.8.2#1 package ABI: 2596773b37ae2e899c4ecbe49fc5ed6777b153f17a1d0a618ffc238050577aa2
+Building liblzma:arm64-osx-dynamic@5.8.2#1...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download tukaani-project-xz-v5.8.2.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/a14c9d0a118c611d1156cd9a605269c706b976a752c048db7f2eea956e2bf717ce595f46186d951a6c4493e35658e08fa3fe4b256898c6ca08e3695c0ee7b0e5
+Download successful! Asset cache hit, did not try authoritative source https://github.com/tukaani-project/xz/archive/v5.8.2.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/tukaani-project-xz-v5.8.2.tar.gz
+-- Applying patch build-tools.patch
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/liblzma/src/v5.8.2-30365c07c3.clean
+-- Configuring arm64-osx-dynamic
+CMake Warning at /Users/ajpri/Documents/GitHub/ladybird/Build/release/vcpkg_installed/arm64-osx-dynamic/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:344 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      XZ_SANDBOX
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  buildtrees/versioning_/versions/liblzma/d161ccfe43a06cdb2a32d7a9e9fcbf92d67eb7ab/portfile.cmake:26 (vcpkg_cmake_configure)
+  scripts/ports.cmake:206 (include)
+
+
+-- Building arm64-osx-dynamic-rel
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/liblzma_arm64-osx-dynamic/lib/pkgconfig/liblzma.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/liblzma_arm64-osx-dynamic/share/liblzma/copyright
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/liblzma_arm64-osx-dynamic/lib/liblzma.5.8.2.dylib' to '@rpath/liblzma.5.8.2.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/liblzma_arm64-osx-dynamic/lib/liblzma.5.8.2.dylib' to '@loader_path'
+-- Performing post-build validation
+Starting submission of liblzma:arm64-osx-dynamic@5.8.2#1 to 1 binary cache(s) in the background
+Elapsed time to handle liblzma:arm64-osx-dynamic: 23 s
+Completed submission of fast-float:arm64-osx-dynamic@8.1.0 to 1 binary cache(s) in 12.9 ms
+Installing 20/69 libjpeg-turbo:arm64-osx-dynamic@3.1.1...
+libjpeg-turbo:arm64-osx-dynamic@3.1.1 package ABI: 011eefa37bc98ba7c0a7605bbab88643d5c7eb430345c51adccfa1f87b834a27
+Building libjpeg-turbo:arm64-osx-dynamic@3.1.1...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download libjpeg-turbo-libjpeg-turbo-3.1.1.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/4937b63a27818cdb5087091b2d78837f7f385fd6b4d3e3fcaf4d9ad2944fed4a00020dcacb33e9c2fd4b0f9d9851fb4051ed3da86f606aca5167357262a73e89
+Download successful! Asset cache hit, did not try authoritative source https://github.com/libjpeg-turbo/libjpeg-turbo/archive/3.1.1.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/libjpeg-turbo-libjpeg-turbo-3.1.1.tar.gz
+-- Applying patch add-options-for-exes-docs-headers.patch
+-- Applying patch workaround_cmake_system_processor.patch
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/libjpeg-turbo/src/3.1.1-23af682a76.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libjpeg-turbo_arm64-osx-dynamic/lib/pkgconfig/libjpeg.pc
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libjpeg-turbo_arm64-osx-dynamic/lib/pkgconfig/libturbojpeg.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libjpeg-turbo_arm64-osx-dynamic/share/libjpeg-turbo/copyright
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libjpeg-turbo_arm64-osx-dynamic/lib/libjpeg.62.4.0.dylib' to '@rpath/libjpeg.62.4.0.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libjpeg-turbo_arm64-osx-dynamic/lib/libjpeg.62.4.0.dylib' to '@loader_path'
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libjpeg-turbo_arm64-osx-dynamic/lib/libturbojpeg.0.4.0.dylib' to '@rpath/libturbojpeg.0.4.0.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libjpeg-turbo_arm64-osx-dynamic/lib/libturbojpeg.0.4.0.dylib' to '@loader_path'
+-- Performing post-build validation
+Starting submission of libjpeg-turbo:arm64-osx-dynamic@3.1.1 to 1 binary cache(s) in the background
+Elapsed time to handle libjpeg-turbo:arm64-osx-dynamic: 28 s
+Completed submission of liblzma:arm64-osx-dynamic@5.8.2#1 to 1 binary cache(s) in 39.3 ms
+Installing 21/69 tiff[core,jpeg,lzma,zip,zstd]:arm64-osx-dynamic@4.7.1...
+tiff[core,jpeg,lzma,zip,zstd]:arm64-osx-dynamic@4.7.1 package ABI: dec8daf193f0f33cc1022529e64039bb5f6e6313a0b87089bf32086aa26b65b9
+Building tiff[core,jpeg,lzma,zip,zstd]:arm64-osx-dynamic@4.7.1...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download libtiff-libtiff-v4.7.1.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/dcdabe2598db33a973d06f0009dd528aa1f38813bd6015e2595097b838a42240f9ccbe7524b5235ea2f4207a10d5d706339c7a6f4772b531e00a20281a00f67b
+Download successful! Asset cache hit, did not try authoritative source https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/libtiff-libtiff-v4.7.1.tar.gz
+-- Applying patch FindCMath.patch
+-- Applying patch prefer-config.diff
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/tiff/src/v4.7.1-dfffa27dcf.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/tiff_arm64-osx-dynamic/lib/pkgconfig/libtiff-4.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/tiff_arm64-osx-dynamic/share/tiff/copyright
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/tiff_arm64-osx-dynamic/lib/libtiff.6.2.0.dylib' to '@rpath/libtiff.6.2.0.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/tiff_arm64-osx-dynamic/lib/libtiff.6.2.0.dylib' to '@loader_path'
+-- Performing post-build validation
+Starting submission of tiff[core,jpeg,lzma,zip,zstd]:arm64-osx-dynamic@4.7.1 to 1 binary cache(s) in the background
+Elapsed time to handle tiff:arm64-osx-dynamic: 13 s
+Completed submission of libjpeg-turbo:arm64-osx-dynamic@3.1.1 to 1 binary cache(s) in 126 ms
+Installing 22/69 libpng[apng,core]:arm64-osx-dynamic@1.6.50...
+libpng[apng,core]:arm64-osx-dynamic@1.6.50 package ABI: c07a521874a204296016080e948ff83ed180c3313c94fac89810d84d6f0801f6
+Building libpng[apng,core]:arm64-osx-dynamic@1.6.50...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download libpng-1.6.50-apng.patch.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/f9b3b5ef42a7d3e61b435af69e04174c9ea6319d8fc8b5fd3443a3a9f0a0e9803bc2b0fe6658a91d0a76b06dfd846d29b63edffebeedd1cb26f4d2cf0c87f8b1
+Download successful! Asset cache hit, did not try authoritative source https://downloads.sourceforge.net/project/libpng-apng/libpng16/1.6.50/libpng-1.6.50-apng.patch.gz
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/libpng/src/libpng-1.6.50-apng.patch.gz
+Trying to download pnggroup-libpng-v1.6.50.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/34c806e0dda960b480ce2f5ea13e2e55a9540f07c51948be25d312b901c431bc814f730f9322a2e3b6f88d4104a0c49bde9e616762b342d07db44e2c7fd5f2dc
+Download successful! Asset cache hit, did not try authoritative source https://github.com/pnggroup/libpng/archive/v1.6.50.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/pnggroup-libpng-v1.6.50.tar.gz
+-- Applying patch /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/libpng/src/libpng-1.6.50-apng.patch
+-- Applying patch cmake.patch
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/libpng/src/v1.6.50-68411d2c11.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libpng_arm64-osx-dynamic/share/png/vcpkg-cmake-wrapper.cmake
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libpng_arm64-osx-dynamic/share/libpng/libpng-config.cmake
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libpng_arm64-osx-dynamic/lib/pkgconfig/libpng16.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libpng_arm64-osx-dynamic/lib/pkgconfig/libpng.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libpng_arm64-osx-dynamic/share/libpng/usage
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libpng_arm64-osx-dynamic/share/libpng/copyright
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libpng_arm64-osx-dynamic/lib/libpng16.16.50.0.dylib' to '@rpath/libpng16.16.50.0.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libpng_arm64-osx-dynamic/lib/libpng16.16.50.0.dylib' to '@loader_path'
+-- Performing post-build validation
+Starting submission of libpng[apng,core]:arm64-osx-dynamic@1.6.50 to 1 binary cache(s) in the background
+Elapsed time to handle libpng:arm64-osx-dynamic: 4.8 s
+Completed submission of tiff[core,jpeg,lzma,zip,zstd]:arm64-osx-dynamic@4.7.1 to 1 binary cache(s) in 31.4 ms
+Installing 23/69 giflib:arm64-osx-dynamic@5.2.2#2...
+giflib:arm64-osx-dynamic@5.2.2#2 package ABI: 62e1958526bd99e5be8319d53ad3917451a411a581f9aca63eac062703d8585e
+Building giflib:arm64-osx-dynamic@5.2.2#2...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download giflib-5.2.2.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/0865ab2b1904fa14640c655fdb14bb54244ad18a66e358565c00287875d00912343f9be8bfac7658cc0146200d626f7ec9160d7a339f20ba3be6b9941d73975f
+Download successful! Asset cache hit, did not try authoritative source https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=cfhcable, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=pilotfiber, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=gigenet, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=versaweb, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=ayera, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=netactuate, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=phoenixnap, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=astuteinternet, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=freefr, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=netcologne, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=deac-riga, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=excellmedia, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=iweb, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=jaist, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=jztkft, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=managedway, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=nchc, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=netix, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=ufpr, or https://sourceforge.net/projects/giflib/files/giflib-5.2.2.tar.gz/download?use_mirror=tenet
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/giflib-5.2.2.tar.gz
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/giflib/src/-9e90bb84d0.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/giflib_arm64-osx-dynamic/share/gif/vcpkg-cmake-wrapper.cmake
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/giflib_arm64-osx-dynamic/share/giflib/usage
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/giflib_arm64-osx-dynamic/share/giflib/copyright
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/giflib_arm64-osx-dynamic/lib/libgif.dylib' to '@rpath/libgif.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/giflib_arm64-osx-dynamic/lib/libgif.dylib' to '@loader_path'
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/giflib_arm64-osx-dynamic/lib/libgif.dylib' (From '@rpath/libgif.dylib' -> To '@rpath/libgif.dylib')
+-- Performing post-build validation
+Starting submission of giflib:arm64-osx-dynamic@5.2.2#2 to 1 binary cache(s) in the background
+Elapsed time to handle giflib:arm64-osx-dynamic: 2 s
+Completed submission of libpng[apng,core]:arm64-osx-dynamic@1.6.50 to 1 binary cache(s) in 29.8 ms
+Installing 24/69 libwebp[anim,core,img2webp,libwebpmux,mux,nearlossless,simd]:arm64-osx-dynamic@1.6.0#1...
+libwebp[anim,core,img2webp,libwebpmux,mux,nearlossless,simd]:arm64-osx-dynamic@1.6.0#1 package ABI: 4cfc884e1262d5c06ae06d1b25d77a67027a3bc38b570113aefdb6e3dd7acb26
+Building libwebp[anim,core,img2webp,libwebpmux,mux,nearlossless,simd]:arm64-osx-dynamic@1.6.0#1...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download webmproject-libwebp-v1.6.0.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/298e0ad4c09392213baf5abb69d330c6203b618800073fe2df91d01d35034197c5d3e29a74573b06971473c52c74514f0e6e0f6c8162f923e2dd15cb1a692aef
+Download successful! Asset cache hit, did not try authoritative source https://github.com/webmproject/libwebp/archive/v1.6.0.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/webmproject-libwebp-v1.6.0.tar.gz
+-- Applying patch 0002-cmake-config.patch
+-- Applying patch 0003-simd.patch
+-- Applying patch 0008-sdl.patch
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/libwebp/src/v1.6.0-7e52d1be79.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/pkgconfig/libsharpyuv.pc
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/pkgconfig/libwebp.pc
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/pkgconfig/libwebpdecoder.pc
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/pkgconfig/libwebpdemux.pc
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/pkgconfig/libwebpmux.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/share/libwebp/usage
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/libsharpyuv.0.1.2.dylib' to '@rpath/libsharpyuv.0.1.2.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/libsharpyuv.0.1.2.dylib' to '@loader_path'
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/libwebp.7.2.0.dylib' to '@rpath/libwebp.7.2.0.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/libwebp.7.2.0.dylib' to '@loader_path'
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/libwebpdecoder.3.2.0.dylib' to '@rpath/libwebpdecoder.3.2.0.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/libwebpdecoder.3.2.0.dylib' to '@loader_path'
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/libwebpdemux.2.0.17.dylib' to '@rpath/libwebpdemux.2.0.17.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/libwebpdemux.2.0.17.dylib' to '@loader_path'
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/libwebpmux.3.1.2.dylib' to '@rpath/libwebpmux.3.1.2.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/libwebpmux.3.1.2.dylib' to '@loader_path'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/tools/libwebp/img2webp' to '@loader_path/../../lib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/tools/libwebp/webpmux' to '@loader_path/../../lib'
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/libwebp.7.2.0.dylib' (From '@rpath/libsharpyuv.0.dylib' -> To '@rpath/libsharpyuv.0.1.2.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/libwebpdemux.2.0.17.dylib' (From '@rpath/libsharpyuv.0.dylib' -> To '@rpath/libsharpyuv.0.1.2.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/libwebpdemux.2.0.17.dylib' (From '@rpath/libwebp.7.dylib' -> To '@rpath/libwebp.7.2.0.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/libwebpmux.3.1.2.dylib' (From '@rpath/libsharpyuv.0.dylib' -> To '@rpath/libsharpyuv.0.1.2.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/lib/libwebpmux.3.1.2.dylib' (From '@rpath/libwebp.7.dylib' -> To '@rpath/libwebp.7.2.0.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/tools/libwebp/img2webp' (From '@rpath/libsharpyuv.0.dylib' -> To '@rpath/libsharpyuv.0.1.2.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/tools/libwebp/img2webp' (From '@rpath/libwebp.7.dylib' -> To '@rpath/libwebp.7.2.0.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/tools/libwebp/img2webp' (From '@rpath/libwebpdemux.2.dylib' -> To '@rpath/libwebpdemux.2.0.17.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/tools/libwebp/img2webp' (From '@rpath/libwebpmux.3.dylib' -> To '@rpath/libwebpmux.3.1.2.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/tools/libwebp/webpmux' (From '@rpath/libsharpyuv.0.dylib' -> To '@rpath/libsharpyuv.0.1.2.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/tools/libwebp/webpmux' (From '@rpath/libwebp.7.dylib' -> To '@rpath/libwebp.7.2.0.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libwebp_arm64-osx-dynamic/tools/libwebp/webpmux' (From '@rpath/libwebpmux.3.dylib' -> To '@rpath/libwebpmux.3.1.2.dylib')
+-- Performing post-build validation
+Starting submission of libwebp[anim,core,img2webp,libwebpmux,mux,nearlossless,simd]:arm64-osx-dynamic@1.6.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle libwebp:arm64-osx-dynamic: 17 s
+Completed submission of giflib:arm64-osx-dynamic@5.2.2#2 to 1 binary cache(s) in 10.6 ms
+Installing 25/69 libvpx:arm64-osx-dynamic@1.16.0...
+libvpx:arm64-osx-dynamic@1.16.0 package ABI: 005817b5185dac099b6d697ae8792d6c9e8cf5f37ef27445a20a72db1ef63a47
+Building libvpx:arm64-osx-dynamic@1.16.0...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download webmproject-libvpx-v1.16.0.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/07f5e352411d6c0be331706d1835ac89bafbeddcbbac5542b473323766e9e974f4f68b33590f2aa50a7d8d69468a642b508cbb0a7c49a82c9933b07820f9c9d9
+Download successful! Asset cache hit, did not try authoritative source https://github.com/webmproject/libvpx/archive/v1.16.0.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/webmproject-libvpx-v1.16.0.tar.gz
+-- Applying patch 0003-add-uwp-v142-and-v143-support.patch
+-- Applying patch 0004-remove-library-suffixes.patch
+-- Applying patch 0005-dont-expect-gnu-diff.patch
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/libvpx/src/v1.16.0-49fe04bb5a.clean
+-- Getting CMake variables for arm64-osx-dynamic
+-- Loading CMake variables from /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/libvpx/cmake-get-vars_C_CXX-arm64-osx-dynamic.cmake.log
+-- Build info. Target: arm64-darwin20-gcc; Options: --disable-examples --disable-tools --disable-docs --disable-unit-tests --enable-pic --disable-static --enable-shared
+-- Configuring libvpx for Release
+-- Building libvpx for Release
+-- Installing libvpx for Release
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvpx_arm64-osx-dynamic/lib/pkgconfig/vpx.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvpx_arm64-osx-dynamic/share/libvpx/copyright
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvpx_arm64-osx-dynamic/lib/libvpx.12.dylib' to '@rpath/libvpx.12.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvpx_arm64-osx-dynamic/lib/libvpx.12.dylib' to '@loader_path'
+-- Performing post-build validation
+Starting submission of libvpx:arm64-osx-dynamic@1.16.0 to 1 binary cache(s) in the background
+Elapsed time to handle libvpx:arm64-osx-dynamic: 29 s
+Completed submission of libwebp[anim,core,img2webp,libwebpmux,mux,nearlossless,simd]:arm64-osx-dynamic@1.6.0#1 to 1 binary cache(s) in 54.2 ms
+Installing 26/69 libogg:arm64-osx-dynamic@1.3.6#1...
+libogg:arm64-osx-dynamic@1.3.6#1 package ABI: 1fe75e08a9c193810ab4e91347011ceb08477accaa154abbbe6bbde5e94efbe9
+Building libogg:arm64-osx-dynamic@1.3.6#1...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download xiph-ogg-v1.3.6.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/c247e1da8b12f8b33272fafb6d7c171a1a2687c3632977439fa60b96ccc2ad751d88a2931bb3e18e1ddf2eea2e82cdd0aab087b2ec5393a9228c703476fa0167
+Download successful! Asset cache hit, did not try authoritative source https://github.com/xiph/ogg/archive/v1.3.6.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/xiph-ogg-v1.3.6.tar.gz
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/libogg/src/v1.3.6-4ad11a7327.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libogg_arm64-osx-dynamic/lib/pkgconfig/ogg.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libogg_arm64-osx-dynamic/share/libogg/copyright
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libogg_arm64-osx-dynamic/lib/libogg.0.8.6.dylib' to '@rpath/libogg.0.8.6.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libogg_arm64-osx-dynamic/lib/libogg.0.8.6.dylib' to '@loader_path'
+-- Performing post-build validation
+Starting submission of libogg:arm64-osx-dynamic@1.3.6#1 to 1 binary cache(s) in the background
+Elapsed time to handle libogg:arm64-osx-dynamic: 5.4 s
+Completed submission of libvpx:arm64-osx-dynamic@1.16.0 to 1 binary cache(s) in 70.8 ms
+Installing 27/69 libvorbis:arm64-osx-dynamic@1.3.7#4...
+libvorbis:arm64-osx-dynamic@1.3.7#4 package ABI: ebdd127251c5b8c8f128b977a0b5964cc32c33794fddda5828278b17e7dc95b7
+Building libvorbis:arm64-osx-dynamic@1.3.7#4...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download xiph-vorbis-v1.3.7.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/bfb6f5dbfd49ed38b2b08b3667c06d02e68f649068a050f21a3cc7e1e56b27afd546aaa3199c4f6448f03f6e66a82f9a9dc2241c826d3d1d4acbd38339b9e9fb
+Download successful! Asset cache hit, did not try authoritative source https://github.com/xiph/vorbis/archive/v1.3.7.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/xiph-vorbis-v1.3.7.tar.gz
+-- Applying patch 0001-Dont-export-vorbisenc-functions.patch
+-- Applying patch 0002-Fixup-pkgconfig-libs.patch
+-- Applying patch 0003-def-mingw-compat.patch
+-- Applying patch 0004-ogg-find-dependency.patch
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/libvorbis/src/v1.3.7-c32164610e.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvorbis_arm64-osx-dynamic/lib/pkgconfig/vorbis.pc
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvorbis_arm64-osx-dynamic/lib/pkgconfig/vorbisenc.pc
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvorbis_arm64-osx-dynamic/lib/pkgconfig/vorbisfile.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvorbis_arm64-osx-dynamic/share/libvorbis/usage
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvorbis_arm64-osx-dynamic/share/libvorbis/copyright
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvorbis_arm64-osx-dynamic/lib/libvorbis.0.4.9.dylib' to '@rpath/libvorbis.0.4.9.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvorbis_arm64-osx-dynamic/lib/libvorbis.0.4.9.dylib' to '@loader_path'
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvorbis_arm64-osx-dynamic/lib/libvorbisenc.2.0.12.dylib' to '@rpath/libvorbisenc.2.0.12.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvorbis_arm64-osx-dynamic/lib/libvorbisenc.2.0.12.dylib' to '@loader_path'
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvorbis_arm64-osx-dynamic/lib/libvorbisfile.3.3.8.dylib' to '@rpath/libvorbisfile.3.3.8.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvorbis_arm64-osx-dynamic/lib/libvorbisfile.3.3.8.dylib' to '@loader_path'
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvorbis_arm64-osx-dynamic/lib/libvorbis.0.4.9.dylib' (From '@rpath/libvorbis.0.4.9.dylib' -> To '@rpath/libvorbis.0.4.9.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvorbis_arm64-osx-dynamic/lib/libvorbisenc.2.0.12.dylib' (From '@rpath/libvorbis.0.4.9.dylib' -> To '@rpath/libvorbis.0.4.9.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvorbis_arm64-osx-dynamic/lib/libvorbisenc.2.0.12.dylib' (From '@rpath/libvorbisenc.2.0.12.dylib' -> To '@rpath/libvorbisenc.2.0.12.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvorbis_arm64-osx-dynamic/lib/libvorbisfile.3.3.8.dylib' (From '@rpath/libvorbis.0.4.9.dylib' -> To '@rpath/libvorbis.0.4.9.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libvorbis_arm64-osx-dynamic/lib/libvorbisfile.3.3.8.dylib' (From '@rpath/libvorbisfile.3.3.8.dylib' -> To '@rpath/libvorbisfile.3.3.8.dylib')
+-- Performing post-build validation
+Starting submission of libvorbis:arm64-osx-dynamic@1.3.7#4 to 1 binary cache(s) in the background
+Elapsed time to handle libvorbis:arm64-osx-dynamic: 5 s
+Completed submission of libogg:arm64-osx-dynamic@1.3.6#1 to 1 binary cache(s) in 39.6 ms
+Installing 28/69 libtheora:arm64-osx-dynamic@1.2.0...
+libtheora:arm64-osx-dynamic@1.2.0 package ABI: e6b738338b2a93760b1aa9e7e06acc89380881c1904132d2260b36327a0c2de7
+Building libtheora:arm64-osx-dynamic@1.2.0...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download xiph-theora-v1.2.0.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/b2aac15528f0ef8258c0902e33e8211e8858c3c7e6e9eeb708cce5922de5f0e412255ddaf540a50c0ebf601df6c4376fd24a0bdd7f8de4432c4ae6e5d6ffe2b6
+Download successful! Asset cache hit, did not try authoritative source https://github.com/xiph/theora/archive/v1.2.0.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/xiph-theora-v1.2.0.tar.gz
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/libtheora/src/v1.2.0-ec5b5ef551.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libtheora_arm64-osx-dynamic/lib/pkgconfig/theora.pc
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libtheora_arm64-osx-dynamic/lib/pkgconfig/theoradec.pc
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libtheora_arm64-osx-dynamic/lib/pkgconfig/theoraenc.pc
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libtheora_arm64-osx-dynamic/lib/libtheora.dylib' to '@rpath/libtheora.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libtheora_arm64-osx-dynamic/lib/libtheora.dylib' to '@loader_path'
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libtheora_arm64-osx-dynamic/lib/libtheoradec.dylib' to '@rpath/libtheoradec.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libtheora_arm64-osx-dynamic/lib/libtheoradec.dylib' to '@loader_path'
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libtheora_arm64-osx-dynamic/lib/libtheoraenc.dylib' to '@rpath/libtheoraenc.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libtheora_arm64-osx-dynamic/lib/libtheoraenc.dylib' to '@loader_path'
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libtheora_arm64-osx-dynamic/lib/libtheora.dylib' (From '@rpath/libtheora.dylib' -> To '@rpath/libtheora.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libtheora_arm64-osx-dynamic/lib/libtheoradec.dylib' (From '@rpath/libtheoradec.dylib' -> To '@rpath/libtheoradec.dylib')
+-- Adjusted dependent shared library install name in '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/libtheora_arm64-osx-dynamic/lib/libtheoraenc.dylib' (From '@rpath/libtheoraenc.dylib' -> To '@rpath/libtheoraenc.dylib')
+-- Performing post-build validation
+Starting submission of libtheora:arm64-osx-dynamic@1.2.0 to 1 binary cache(s) in the background
+Elapsed time to handle libtheora:arm64-osx-dynamic: 4.4 s
+Completed submission of libvorbis:arm64-osx-dynamic@1.3.7#4 to 1 binary cache(s) in 76.8 ms
+Installing 29/69 opus:arm64-osx-dynamic@1.5.2#1...
+opus:arm64-osx-dynamic@1.5.2#1 package ABI: e735019b02584fb169949e899ccea1b5c548938aea0ceb2eb786af9fce4b0594
+Building opus:arm64-osx-dynamic@1.5.2#1...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+Trying to download xiph-opus-v1.5.2.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/4ffefd9c035671024f9720c5129bfe395dea04f0d6b730041c2804e89b1db6e4d19633ad1ae58855afc355034233537361e707f26dc53adac916554830038fab
+Download successful! Asset cache hit, did not try authoritative source https://github.com/xiph/opus/archive/v1.5.2.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/xiph-opus-v1.5.2.tar.gz
+-- Applying patch fix-pkgconfig-version.patch
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/opus/src/v1.5.2-81ed242155.clean
+-- Configuring arm64-osx-dynamic
+-- Building arm64-osx-dynamic-rel
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/opus_arm64-osx-dynamic/lib/pkgconfig/opus.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/opus_arm64-osx-dynamic/share/opus/copyright
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/opus_arm64-osx-dynamic/lib/libopus.0.10.1.dylib' to '@rpath/libopus.0.10.1.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/opus_arm64-osx-dynamic/lib/libopus.0.10.1.dylib' to '@loader_path'
+-- Performing post-build validation
+Starting submission of opus:arm64-osx-dynamic@1.5.2#1 to 1 binary cache(s) in the background
+Elapsed time to handle opus:arm64-osx-dynamic: 13 s
+Completed submission of libtheora:arm64-osx-dynamic@1.2.0 to 1 binary cache(s) in 66.1 ms
+Installing 30/69 vcpkg-tool-meson:arm64-osx-dynamic@1.9.0#3...
+vcpkg-tool-meson:arm64-osx-dynamic@1.9.0#3 package ABI: f1cf5bc6970870ea1494d66332317c5edbabcc5691077a6d8a7d9fb08316e005
+Building vcpkg-tool-meson:arm64-osx-dynamic@1.9.0#3...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-tool-meson_arm64-osx-dynamic/share/vcpkg-tool-meson/copyright
+Trying to download meson-1.9.0.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/ecd69b6734be14c467f7db67dd88c0e57ebfad83ce3ddada131ff3e43ac964523e1083d7c7f3803033a9a76adbc32ad26dd2e3aca69884269000ca64130bde07
+Download successful! Asset cache hit, did not try authoritative source https://github.com/mesonbuild/meson/archive/1.9.0.tar.gz
+-- Applying patch /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-tool-meson_arm64-osx-dynamic/share/vcpkg-tool-meson/meson-intl.patch
+-- Applying patch /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-tool-meson_arm64-osx-dynamic/share/vcpkg-tool-meson/adjust-python-dep.patch
+-- Applying patch /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-tool-meson_arm64-osx-dynamic/share/vcpkg-tool-meson/adjust-args.patch
+-- Applying patch /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-tool-meson_arm64-osx-dynamic/share/vcpkg-tool-meson/remove-pkgconfig-specialization.patch
+-- Applying patch /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/vcpkg-tool-meson_arm64-osx-dynamic/share/vcpkg-tool-meson/meson-56879d5.diff
+-- Found Python version '3.13.5 at /Users/ajpri/.pyenv/versions/3.13.5/bin/python3'
+-- Using meson: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/tools/meson-1.9.0-d1fcc2/meson.py
+-- Performing post-build validation
+Starting submission of vcpkg-tool-meson:arm64-osx-dynamic@1.9.0#3 to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-tool-meson:arm64-osx-dynamic: 8.4 s
+Completed submission of opus:arm64-osx-dynamic@1.5.2#1 to 1 binary cache(s) in 38.6 ms
+Installing 31/69 openh264:arm64-osx-dynamic@2.6.0#4...
+openh264:arm64-osx-dynamic@2.6.0#4 package ABI: 7a5f59c4c8e532e3e4b638b71344e3822e8f952ea8ad9eff2b0d1f4dca6a311e
+Building openh264:arm64-osx-dynamic@2.6.0#4...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+-- Found Python version '3.13.5 at /Users/ajpri/.pyenv/versions/3.13.5/bin/python3'
+-- Using meson: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/tools/meson-1.9.0-d1fcc2/meson.py
+Trying to download cisco-openh264-v2.6.0.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/26a03acde7153a6b40b99f00641772433a244c72a3cc4bca6d903cf3b770174d028369a2fb73b2f0774e1124db0e269758eed6d88975347a815e0366c820d247
+Download successful! Asset cache hit, did not try authoritative source https://github.com/cisco/openh264/archive/v2.6.0.tar.gz
+-- Extracting source /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/cisco-openh264-v2.6.0.tar.gz
+-- Applying patch 001-add-bsds-to-meson.patch
+-- Using source at /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/openh264/src/v2.6.0-60c08e1280.clean
+-- Configuring arm64-osx-dynamic-rel
+-- Getting CMake variables for arm64-osx-dynamic
+-- Loading CMake variables from /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/buildtrees/openh264/cmake-get-vars_C_CXX-arm64-osx-dynamic.cmake.log
+-- Configuring arm64-osx-dynamic-rel done
+-- Package arm64-osx-dynamic-rel
+-- Fixing pkgconfig file: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/openh264_arm64-osx-dynamic/lib/pkgconfig/openh264.pc
+-- Installing: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/openh264_arm64-osx-dynamic/share/openh264/copyright
+-- Setting install name id of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/openh264_arm64-osx-dynamic/lib/libopenh264.7.dylib' to '@rpath/libopenh264.7.dylib'
+-- Adjusted RPATH of '/Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/packages/openh264_arm64-osx-dynamic/lib/libopenh264.7.dylib' to '@loader_path'
+-- Performing post-build validation
+Starting submission of openh264:arm64-osx-dynamic@2.6.0#4 to 1 binary cache(s) in the background
+Elapsed time to handle openh264:arm64-osx-dynamic: 1.4 min
+Completed submission of vcpkg-tool-meson:arm64-osx-dynamic@1.9.0#3 to 1 binary cache(s) in 13.9 ms
+Installing 32/69 dav1d:arm64-osx-dynamic@1.5.1...
+dav1d:arm64-osx-dynamic@1.5.1 package ABI: 6defcc0a7fe10b721171ff4ff2fabc0d265fdfeca63f6440709902af721bb19d
+Building dav1d:arm64-osx-dynamic@1.5.1...
+/Users/ajpri/Documents/GitHub/ladybird/Meta/CMake/vcpkg/release-triplets/arm64-osx-dynamic.cmake: info: loaded overlay triplet from here
+-- Found Python version '3.13.5 at /Users/ajpri/.pyenv/versions/3.13.5/bin/python3'
+-- Using meson: /Users/ajpri/Documents/GitHub/ladybird/Build/vcpkg/downloads/tools/meson-1.9.0-d1fcc2/meson.py
+Trying to download videolan-dav1d-1.5.1.tar.gz using asset cache https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/96973b59b367bc98fbc8b6c4f871259d9635caf487da86d7f5a4c42715424faf937e7e3f142a3175a7b473c3e945decb03a23e7a854b7c0ff0d11eeb5b692fad
+Asset cache miss; trying authoritative source https://code.videolan.org/videolan/dav1d/-/archive/1.5.1/dav1d-1.5.1.tar.gz
+error: curl operation failed with error code 7 (Couldn't connect to server).
+error: Not a transient network error, won't retry download from https://vcpkg-cache.app.ladybird.org/ladybird/source-assets/96973b59b367bc98fbc8b6c4f871259d9635caf487da86d7f5a4c42715424faf937e7e3f142a3175a7b473c3e945decb03a23e7a854b7c0ff0d11eeb5b692fad
+error: curl operation failed with error code 6 (Couldn't resolve host name).
+error: Not a transient network error, won't retry download from https://code.videolan.org/videolan/dav1d/-/archive/1.5.1/dav1d-1.5.1.tar.gz
+note: If you are using a proxy, please ensure your proxy settings are correct.
+Possible causes are:
+1. You are actually using an HTTP proxy, but setting HTTPS_PROXY variable to `https://address:port`.
+This is not correct, because `https://` prefix claims the proxy is an HTTPS proxy, while your proxy (v2ray, shadowsocksr, etc...) is an HTTP proxy.
+Try setting `http://address:port` to both HTTP_PROXY and HTTPS_PROXY instead.
+2. If you are using Windows, vcpkg will automatically use your Windows IE Proxy Settings set by your proxy software. See: https://github.com/microsoft/vcpkg-tool/pull/77
+The value set by your proxy might be wrong, or have same `https://` prefix issue.
+3. Your proxy's remote server is out of service.
+If you believe this is not a temporary download server failure and vcpkg needs to be changed to download this file from a different location, please submit an issue to https://github.com/Microsoft/vcpkg/issues
+CMake Error at scripts/cmake/vcpkg_download_distfile.cmake:136 (message):
+  Download failed, halting portfile.
+Call Stack (most recent call first):
+  scripts/cmake/vcpkg_from_gitlab.cmake:113 (vcpkg_download_distfile)
+  buildtrees/versioning_/versions/dav1d/0ab099efbd7810199d63a8167c6c54fc6bedf8ba/portfile.cmake:1 (vcpkg_from_gitlab)
+  scripts/ports.cmake:206 (include)
+
+
+error: building dav1d:arm64-osx-dynamic failed with: BUILD_FAILED
+See https://learn.microsoft.com/vcpkg/troubleshoot/build-failures?WT.mc_id=vcpkg_inproduct_cli for more information.
+Elapsed time to handle dav1d:arm64-osx-dynamic: 30 s
+Please ensure you're using the latest port files with `git pull` and `vcpkg update`.
+Then check for known issues at:
+  https://github.com/microsoft/vcpkg/issues?q=is%3Aissue+is%3Aopen+in%3Atitle+dav1d
+You can submit a new issue at:
+  https://github.com/microsoft/vcpkg/issues/new?title=%5Bdav1d%5D%20build%20error%20on%20arm64-osx-dynamic&body=Copy%20issue%20body%20from%20%2FUsers%2Fajpri%2FDocuments%2FGitHub%2Fladybird%2FBuild%2Frelease%2Fvcpkg_installed%2Fvcpkg%2Fissue_body.md
+You can also submit an issue by running (GitHub CLI must be installed):
+  /opt/homebrew/bin/gh issue create -R microsoft/vcpkg --title "[dav1d] Build failure on arm64-osx-dynamic" --body-file /Users/ajpri/Documents/GitHub/ladybird/Build/release/vcpkg_installed/vcpkg/issue_body.md
+Completed submission of openh264:arm64-osx-dynamic@2.6.0#4 to 1 binary cache(s) in 140 ms
+-- Running vcpkg install - failed
+CMake Error at Build/vcpkg/scripts/buildsystems/vcpkg.cmake:953 (message):
+  vcpkg install failed.  See logs for more information:
+  /Users/ajpri/Documents/GitHub/ladybird/Build/release/vcpkg-manifest-install.log
+Call Stack (most recent call first):
+  /opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)
+  CMakeLists.txt:26 (project)
+
+
+CMake Error: CMake was unable to find a build program corresponding to "Ninja".  CMAKE_MAKE_PROGRAM is not set.  You probably need to select a different build tool.
+-- Configuring incomplete, errors occurred!
+Building vcpkg@48cfe1e0e928341709d97fc3d2eff10ad6262c96
