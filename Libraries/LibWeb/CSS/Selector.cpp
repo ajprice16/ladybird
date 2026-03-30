@@ -76,8 +76,11 @@ static bool can_selector_use_fast_matches(Selector const& selector)
 Selector::Selector(Vector<CompoundSelector>&& compound_selectors)
     : m_compound_selectors(move(compound_selectors))
 {
-    // FIXME: This assumes that only one pseudo-element is allowed in a selector, and that it appears at the end.
-    //        This is not true in Selectors-4!
+    // For most selectors, at most one pseudo-element appears and it is at the end. The exception is
+    // ::part() chaining (e.g. ::part(foo)::before), where ::part() is followed by a second pseudo-element
+    // that is the actual styling target. In that case m_pseudo_element is set to the last pseudo-element
+    // (the styling target), and m_contains_part_pseudo_element separately tracks the presence of ::part().
+    // FIXME: Other Selectors-4 pseudo-element chains (e.g. ::highlight()::before) are not yet supported.
     if (!m_compound_selectors.is_empty()) {
         for (auto const& simple_selector : m_compound_selectors.last().simple_selectors) {
             if (simple_selector.type == SimpleSelector::Type::PseudoElement) {

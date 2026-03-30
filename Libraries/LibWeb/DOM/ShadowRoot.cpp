@@ -320,7 +320,9 @@ static Vector<ExportedPart> parse_exportparts_attribute(Element const& element)
             auto inner_name = MUST(FlyString::from_utf8(parts[0].trim_whitespace()));
             auto outer_name = MUST(FlyString::from_utf8(parts[1].trim_whitespace()));
             result.append({ inner_name, outer_name });
-        } });
+        }
+        // Entries with more than one colon are invalid per the CSS Shadow Parts spec and are silently ignored.
+        });
 
     return result;
 }

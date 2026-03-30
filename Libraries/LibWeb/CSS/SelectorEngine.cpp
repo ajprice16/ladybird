@@ -1333,17 +1333,13 @@ bool matches(CSS::Selector const& selector, DOM::Element const& element, GC::Ptr
 
     VERIFY(!selector.compound_selectors().is_empty());
     if (selector.has_part_pseudo_element()) {
-        // For ::part() selectors, find any additional pseudo-element beyond ::part() (e.g., the ::selection in
-        // ::part(foo)::selection) and verify it matches the target pseudo-element. A bare ::part(foo) selector has no
-        // additional pseudo-element and should only match base element styles.
+        // For ::part() selectors, verify the chained pseudo-element (if any) matches the target.
+        // The Selector constructor stores the last pseudo-element in m_pseudo_element: for a bare ::part(foo)
+        // that is ::part() itself, and for ::part(foo)::before it is ::before. A bare ::part(foo) has no
+        // extra pseudo-element and should only match base element styles.
         Optional<CSS::PseudoElement> target_pseudo;
-        for (auto const& simple : selector.compound_selectors().last().simple_selectors) {
-            if (simple.type == CSS::Selector::SimpleSelector::Type::PseudoElement
-                && simple.pseudo_element().type() != CSS::PseudoElement::Part) {
-                target_pseudo = simple.pseudo_element().type();
-                break;
-            }
-        }
+        if (selector.pseudo_element().has_value() && selector.pseudo_element()->type() != CSS::PseudoElement::Part)
+            target_pseudo = selector.pseudo_element()->type();
         if (target_pseudo != pseudo_element)
             return false;
     } else {
